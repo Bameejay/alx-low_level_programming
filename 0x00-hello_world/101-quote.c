@@ -7,4 +7,4 @@
 int main(void)
 {
 printf("and that peice of art is useful" - Dora korpar, 2015-10-19,\n");
-return (1);
+return (0);
