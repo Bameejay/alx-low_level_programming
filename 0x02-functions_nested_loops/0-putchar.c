@@ -1,24 +1,21 @@
-#include "main.h"
-
+# include "main.h"
 /**
- * main - check the code for ALX School students.
- *
- * Program that prints _putchar, followed by a new line
- *
- * Return: always 0 (success)
+ *main - print out main car by char.
+ *Description: uses the main header file
+ *that contains the function _putchar
+ *Return: 0.
  */
 
+int main (void)
 int main(void)
 {
-	char s[] = "_putchar";
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		_putchar(s[i]);
-		i++;
-	}
-	_putchar(10);
-
-	return (0);
+char str[] = "_putchar";
+int i;
+i = 0;
+while (str[i])
+{
+_putchar(str[i]);
+++i;
 }
+_putchar('\n');
+return (0);
